@@ -1,0 +1,17 @@
+body{
+    background:#3f51b5;
+}
+
+.container{
+    max-width: 500px;
+}
+.heading{
+    color: #e3f2fd;
+}
+.label{
+    color: #fff;
+}
+.search{
+   border-bottom-left-radius: 1rem;
+   border-top-right-radius:1rem;
+}
