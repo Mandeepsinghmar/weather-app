@@ -29,3 +29,7 @@ input{
 .remove{
     display:none;
 }
+
+input:focus{
+    outline: none;
+}
