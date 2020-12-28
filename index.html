@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Weather App</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container my-5 mx-auto">
+      <h1 class="text-center my-4 heading">Weather App</h1>
 
-     <h1 class="text-center my-4 heading">Weather App</h1>     
-    
-     <form class="location my-4 text-muted text-center">
-        <label for="city_name" class="label">Enter your city name for weather information.</label>
-        <input type="text" class=" search form-control mt-2 p-2" name="city_name" placeholder="search your city...">
-    </form>
+      <form class="location my-4 text-muted text-center">
+        <label for="city_name" class="label"
+          >Enter your city name for weather information.</label
+        >
+        <input
+          type="text"
+          class="search form-control mt-2 p-2"
+          name="city_name"
+          placeholder="search your city..."
+        />
+      </form>
 
-  <div class="card shadow-lg rounded">
-    <img src="https://via.placeholder.com/500x300" class="time card-img-top">
-  <div class="icon text-center mx-auto bg-light">
-      <!-- icon will come here-->
-  </div>
-<div class="text-primary text-uppercase text-center details">
-<h5 class="my-3">city name</h5>
-<p class="my-3">weather condition</p>
-<div class="display-4 my-3">
-    <span>temp</span>
-    <span>&deg;C</span>
-</div>
-</div>
-
-
-
-</div>
-   
-
+      <div class="card remove shadow-lg rounded">
+        <img
+          src="https://via.placeholder.com/500x300"
+          class="time card-img-top"
+        />
+        <div class="icons text-center mx-auto bg-light">
+          <img src="" class="icon" />
+        </div>
+        <div class="text-uppercase text-center details">
+          <h5 class="my-3">city name</h5>
+          <p class="my-3">weather condition</p>
+          <div class="display-4 my-3">
+            <span>temp</span>
+            <span>&deg;C</span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="scripts/weatherforecast.js"></script>
     <script src="/scripts/app.js"></script>
-</body>
+  </body>
 </html>

@@ -1,5 +1,5 @@
 body{
-    background:#3f51b5;
+    background:#F3F2EF;
    letter-spacing: 0.1em;
 }
 
@@ -7,12 +7,25 @@ body{
     max-width: 500px;
 }
 .heading{
-    color: #e3f2fd;
+    color: #000000;
 }
 .label{
-    color: #fff;
+    color: #7A7A7A;
+}
+input{
+    color: #7A7A7A;;
 }
 .search{
    border-bottom-left-radius: 1rem;
    border-top-right-radius:1rem;
+}
+.icons{
+    position: relative;
+    top: -50px;
+    width: 100px;
+    border-radius: 50%;
+  margin-bottom: -50px;
+}
+.remove{
+    display:none;
 }
